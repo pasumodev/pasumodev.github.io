@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: PASUMO
+# description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://pasumodev.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+callouts:
+  tip:
+    title: Tip
+    color: blue
