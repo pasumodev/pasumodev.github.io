@@ -10,3 +10,6 @@ callouts:
   tip:
     title: Tip
     color: blue
+  important:
+    title: Important
+    color: yellow

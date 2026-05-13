@@ -51,6 +51,9 @@ This page explains how to install and configure the SlatForge Blender addon and 
 
 ## Starting the server
 
+{: .important }
+If you have Windows Smart App Control enabled in your system, you may need to **run Blender as administrator** before running the next step to download the required AI models.
+
 SlatForge is almost ready to be used. It just need to download and cache all AI models that it requires to function. This is a one-time step.
 
 1.  In the SlatForge sidebar panel, click **Start Server**.
@@ -59,4 +62,4 @@ SlatForge is almost ready to be used. It just need to download and cache all AI 
 
 2.  Wait until the panel reports **Ready**. The terminal window will display the message `SlatForge Server is ready to receive jobs`.
 
-Subsequent server starts will use cached AI models.
+Subsequent server starts will use cached AI models and you won't need to run Blender as administrator anymore.

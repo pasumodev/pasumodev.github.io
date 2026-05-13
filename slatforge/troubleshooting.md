@@ -30,6 +30,11 @@ If the addon reports the server path as invalid:
 - The addon connects to `127.0.0.1:50007`. Ensure there is no firewall or process blocking that port and that it's not being used by another process.
 - If the server stops unexpectedly, the UI will report a warning.
 
+## Generated mesh is too messy
+
+- Increase the Sampling Steps values to give the generator more time to synthesize the mesh.
+- Enable **Remesh** during [Mesh Generation](/slatforge/mesh-generation.html) or during [Mesh Reprocessing](/slatforge/reprocessing-meshes.html).
+
 ## Texture generation issues
 
 - The active object must be a mesh and have valid UVs.
